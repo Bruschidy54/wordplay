@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		CD3EB0011C97401700C48ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0001C97401700C48ADA /* main.m */; };
 		CD3EB0041C97401700C48ADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0031C97401700C48ADA /* AppDelegate.m */; };
-		CD3EB0071C97401700C48ADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0061C97401700C48ADA /* ViewController.m */; };
+		CD3EB0071C97401700C48ADA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0061C97401700C48ADA /* RootViewController.m */; };
 		CD3EB00A1C97401700C48ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB0081C97401700C48ADA /* Main.storyboard */; };
 		CD3EB00C1C97401700C48ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB00B1C97401700C48ADA /* Assets.xcassets */; };
 		CD3EB00F1C97401700C48ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3EB00D1C97401700C48ADA /* LaunchScreen.storyboard */; };
+		CD3EB0181C9741E000C48ADA /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0171C9741E000C48ADA /* EnterNameViewController.m */; };
+		CD3EB01B1C97429A00C48ADA /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB01A1C97429A00C48ADA /* EnterAdjectiveViewController.m */; };
+		CD3EB01E1C97436500C48ADA /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB01D1C97436500C48ADA /* ResultsViewController.m */; };
+		CD3EB0211C975B5D00C48ADA /* EnterVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0201C975B5D00C48ADA /* EnterVerbViewController.m */; };
+		CD3EB0241C975B7700C48ADA /* EnterAdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EB0231C975B7700C48ADA /* EnterAdverbViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,22 @@
 		CD3EB0001C97401700C48ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD3EB0021C97401700C48ADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD3EB0031C97401700C48ADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD3EB0051C97401700C48ADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD3EB0061C97401700C48ADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD3EB0051C97401700C48ADA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CD3EB0061C97401700C48ADA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		CD3EB0091C97401700C48ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD3EB00B1C97401700C48ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD3EB00E1C97401700C48ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD3EB0101C97401700C48ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3EB0161C9741E000C48ADA /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		CD3EB0171C9741E000C48ADA /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		CD3EB0191C97429A00C48ADA /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		CD3EB01A1C97429A00C48ADA /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		CD3EB01C1C97436500C48ADA /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		CD3EB01D1C97436500C48ADA /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		CD3EB01F1C975B5D00C48ADA /* EnterVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterVerbViewController.h; sourceTree = "<group>"; };
+		CD3EB0201C975B5D00C48ADA /* EnterVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterVerbViewController.m; sourceTree = "<group>"; };
+		CD3EB0221C975B7700C48ADA /* EnterAdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdverbViewController.h; sourceTree = "<group>"; };
+		CD3EB0231C975B7700C48ADA /* EnterAdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdverbViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +75,19 @@
 			children = (
 				CD3EB0021C97401700C48ADA /* AppDelegate.h */,
 				CD3EB0031C97401700C48ADA /* AppDelegate.m */,
-				CD3EB0051C97401700C48ADA /* ViewController.h */,
-				CD3EB0061C97401700C48ADA /* ViewController.m */,
+				CD3EB0051C97401700C48ADA /* RootViewController.h */,
+				CD3EB0061C97401700C48ADA /* RootViewController.m */,
 				CD3EB0081C97401700C48ADA /* Main.storyboard */,
+				CD3EB0221C975B7700C48ADA /* EnterAdverbViewController.h */,
+				CD3EB0231C975B7700C48ADA /* EnterAdverbViewController.m */,
+				CD3EB01F1C975B5D00C48ADA /* EnterVerbViewController.h */,
+				CD3EB0201C975B5D00C48ADA /* EnterVerbViewController.m */,
+				CD3EB01C1C97436500C48ADA /* ResultsViewController.h */,
+				CD3EB01D1C97436500C48ADA /* ResultsViewController.m */,
+				CD3EB0191C97429A00C48ADA /* EnterAdjectiveViewController.h */,
+				CD3EB01A1C97429A00C48ADA /* EnterAdjectiveViewController.m */,
+				CD3EB0161C9741E000C48ADA /* EnterNameViewController.h */,
+				CD3EB0171C9741E000C48ADA /* EnterNameViewController.m */,
 				CD3EB00B1C97401700C48ADA /* Assets.xcassets */,
 				CD3EB00D1C97401700C48ADA /* LaunchScreen.storyboard */,
 				CD3EB0101C97401700C48ADA /* Info.plist */,
@@ -149,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3EB0071C97401700C48ADA /* ViewController.m in Sources */,
+				CD3EB0071C97401700C48ADA /* RootViewController.m in Sources */,
+				CD3EB0211C975B5D00C48ADA /* EnterVerbViewController.m in Sources */,
 				CD3EB0041C97401700C48ADA /* AppDelegate.m in Sources */,
+				CD3EB01B1C97429A00C48ADA /* EnterAdjectiveViewController.m in Sources */,
+				CD3EB01E1C97436500C48ADA /* ResultsViewController.m in Sources */,
+				CD3EB0181C9741E000C48ADA /* EnterNameViewController.m in Sources */,
 				CD3EB0011C97401700C48ADA /* main.m in Sources */,
+				CD3EB0241C975B7700C48ADA /* EnterAdverbViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
